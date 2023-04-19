@@ -1,0 +1,51 @@
+C:\Users\Aula\source\repos\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.exe
+C:\Users\Aula\source\repos\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.deps.json
+C:\Users\Aula\source\repos\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.runtimeconfig.json
+C:\Users\Aula\source\repos\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\source\repos\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.AssemblyReference.cache
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.Form1.resources
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.GenerateResource.cache
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfo.cs
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\refint\Banco01.dll
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.genruntimeconfig.cache
+C:\Users\Aula\source\repos\Banco01\Banco01\obj\Debug\net6.0-windows\ref\Banco01.dll
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.exe
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.deps.json
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.runtimeconfig.json
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.AssemblyReference.cache
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.Form1.resources
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.GenerateResource.cache
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfoInputs.cache
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfo.cs
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\refint\Banco01.dll
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.genruntimeconfig.cache
+C:\Users\Aula\Downloads\Banco01 (1)\Banco01\Banco01\obj\Debug\net6.0-windows\ref\Banco01.dll
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.exe
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.deps.json
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.runtimeconfig.json
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\bin\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.AssemblyReference.cache
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.Form1.resources
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.GenerateResource.cache
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfoInputs.cache
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.AssemblyInfo.cs
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.csproj.CoreCompileInputs.cache
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.dll
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\refint\Banco01.dll
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.pdb
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\Banco01.genruntimeconfig.cache
+C:\Users\Aula\Downloads\Banco OO\Banco01\Banco01\obj\Debug\net6.0-windows\ref\Banco01.dll
