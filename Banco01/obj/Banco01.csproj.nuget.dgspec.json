@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\Desktop\\Facul_Bia\\Banco01\\Banco01\\Banco01.csproj": {}
+    "C:\\Banco\\SistemaBancario\\Banco01\\Banco01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\Desktop\\Facul_Bia\\Banco01\\Banco01\\Banco01.csproj": {
+    "C:\\Banco\\SistemaBancario\\Banco01\\Banco01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\Facul_Bia\\Banco01\\Banco01\\Banco01.csproj",
+        "projectUniqueName": "C:\\Banco\\SistemaBancario\\Banco01\\Banco01.csproj",
         "projectName": "Banco01",
-        "projectPath": "C:\\Users\\vinic\\Desktop\\Facul_Bia\\Banco01\\Banco01\\Banco01.csproj",
-        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\Desktop\\Facul_Bia\\Banco01\\Banco01\\obj\\",
+        "projectPath": "C:\\Banco\\SistemaBancario\\Banco01\\Banco01.csproj",
+        "packagesPath": "C:\\Users\\Aula\\.nuget\\packages\\",
+        "outputPath": "C:\\Banco\\SistemaBancario\\Banco01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

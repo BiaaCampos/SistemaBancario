@@ -6,10 +6,12 @@ using System.Windows.Forms;
 
 namespace Banco01
 {
+
+    //Classe principal do aplicativo
     public partial class Form1 : Form
     {
-        public List<Conta> listContas { get; set; }
-        public int IndiceContaEncontrado { get; set; }
+        public List<Conta> listContas { get; set; } // Lista usada para armezanar as contas
+        public int IndiceContaEncontrado { get; set; } // Lista usada para armazenar os incides das contas
 
         public Conta? ContaAtual1 { get; set; }
         public Conta? ContaAtual2 { get; set; }
@@ -17,9 +19,10 @@ namespace Banco01
         public Form1()
         {
             InitializeComponent();
-            listContas = new List<Conta>();
+            listContas = new List<Conta>(); //Atribuindo a propriedade "ListContas" e adicionando na lista "Conta"
         }
 
+        //Criação de um novo objeto "cliente"
         private void button3_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
@@ -27,14 +30,15 @@ namespace Banco01
 
             Conta conta = new Conta(cliente);
 
-
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
 
         }
 
+        //Criando um novo objeto "cliente" com o tipo de conta corrente
         private void button3_Click_1(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
@@ -44,10 +48,18 @@ namespace Banco01
             conta.Depositar(Convert.ToDouble(textBox2.Text));
             conta.Numero = Convert.ToInt32(textBox5.Text);
 
-            listContas.Add(conta);
+            listContas.Add(conta); //Está sendo adicionado a nova conta na "ListContas"
             AtualizarComboBox();
+
+            MessageBox.Show("Conta Corrente criada com sucesso!");
+
+            textBox1.Text = string.Empty;
+            textBox5.Text = string.Empty;
+            textBox2.Text = string.Empty;
         }
 
+
+        //Criando um novo objeto "cliente" com o tipo de conta poupança
         private void button4_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente();
@@ -58,8 +70,16 @@ namespace Banco01
             conta.Numero = Convert.ToInt32(textBox5.Text);
             listContas.Add(conta);
             AtualizarComboBox();
+
+            MessageBox.Show("Conta Poupança criada com sucesso!");
+
+            textBox1.Text = string.Empty;
+            textBox5.Text = string.Empty;
+            textBox2.Text = string.Empty;
         }
 
+
+        //Manipulador de evento, utilizado quando o valor que é selecionado no combobox1 é alterado
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem != null)
@@ -83,6 +103,7 @@ namespace Banco01
 
         }
 
+        //Usado para selecionar qual conta deseja
         private void AtualizarComboBox()
         {
             var bindingSource1 = new BindingSource();
@@ -110,28 +131,44 @@ namespace Banco01
 
         }
 
+
+        //Método para poder sacar o valor desejado
         private void button1_Click(object sender, EventArgs e)
         {
+            //sacar
             if (!String.IsNullOrEmpty(textBox3.Text))
             {
-                //sacar
-                if (ContaAtual1 is ContaCorrente)
-                {
-                    ContaAtual1.Sacar(Convert.ToDouble(textBox3.Text));
-                }
-                else if (ContaAtual1 is ContaPoupanca)
-                {
-                    ContaAtual1.Sacar(Convert.ToDouble(textBox3.Text));
-                }
+                double valorSaque = Convert.ToDouble(textBox3.Text);
 
+                if (valorSaque > ContaAtual1.Saldo)
+                {
+                    MessageBox.Show("Saldo insuficiente para o saque solicitado.");
+                }
+                else
+                {
+                    if (ContaAtual1 is ContaCorrente)
+                    {
+                        ContaAtual1.Sacar(valorSaque);
+                    }
+                    else if (ContaAtual1 is ContaPoupanca)
+                    {
+                        ContaAtual1.Sacar(valorSaque);
+                    }
+                }
             }
             else
             {
-                MessageBox.Show("valor n�o informado");
+                MessageBox.Show("Valor não informado.");
             }
             AtualizarComboBox();
+
+            MessageBox.Show("Valor sacado com sucesso!");
+
+            textBox3.Text = string.Empty;
+
         }
 
+        //Método para fazer o depósito desejado
         private void button2_Click_1(object sender, EventArgs e) //Deposito
         {
             if (!String.IsNullOrEmpty(textBox3.Text))
@@ -143,13 +180,16 @@ namespace Banco01
             }
             else
             {
-                MessageBox.Show("valor n�o informado");
+                MessageBox.Show("valor não informado");
             }
 
+            MessageBox.Show("Valor depositado com sucesso!");
 
+            textBox3.Text = string.Empty;
 
         }
 
+        //Método para fazer a transferência
         private void btnTransferir_Click(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(textBox3.Text))
@@ -157,34 +197,52 @@ namespace Banco01
                 //transferir
                 ContaAtual1.Transferir(Convert.ToDouble(textBox3.Text));
                 ContaAtual2.Depositar(Convert.ToDouble(textBox3.Text));
-                
-
             }
             else
             {
-                MessageBox.Show("valor n�o informado");
+                MessageBox.Show("valor n�o informado");
             }
             AtualizarComboBox();
+
+            MessageBox.Show("Valor transferido com sucesso!");
+
+            textBox3.Text = string.Empty;
         }
 
+
+        //Selecionar a conta para qual deseja fazer a transferência
         private void comboBox2Transferir_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem != null && comboBox1.SelectedItem == comboBox2.SelectedItem)
             {
-                MessageBox.Show("Voc� n�o pode selecionar a mesma conta");
+                MessageBox.Show("Você não pode selecionar a mesma conta");
                 comboBox2.SelectedIndex = -1;
             }
             else if (comboBox2.SelectedItem != null)
             {
                 Conta? selectedConta = comboBox2.SelectedItem as Conta;
                 IndiceContaEncontrado = listContas.FindIndex(x => x.Numero == selectedConta.Numero);
-                //label4.Text = listContas[IndiceContaEncontrado].getSaldo();
                 ContaAtual2 = listContas[IndiceContaEncontrado];
             }
             else
             {
                 ContaAtual2 = null;
             }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
