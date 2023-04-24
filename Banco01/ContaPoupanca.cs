@@ -1,6 +1,6 @@
 ﻿namespace Banco01
 {
-    internal class ContaPoupanca : Conta
+    internal class ContaPoupanca : Conta //Classe poupança herda propriedade da classe PAI (Conta) e adiciona seus atributos proprios
     {
         public ContaPoupanca(Cliente cliente) : base(cliente)
         {
@@ -15,7 +15,6 @@
             else
             {
                 MessageBox.Show("Esse valor não pode ser sacado!");
-                //mensagem dizendo que não pode sacar >1000
             }
             
         }
